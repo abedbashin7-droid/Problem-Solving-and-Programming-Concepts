@@ -1,0 +1,34 @@
+Start
+    Declare String nam1, nam2, nam3
+    
+    Display "Enter the first name:"
+    Input nam1
+    
+    Display "Enter the second name:"
+    Input nam2
+    
+    Display "Enter the third name:"
+    Input nam3
+    
+    If nam1 <= nam2 Then
+        If nam2 <= nam3 Then
+            Display nam1, nam2, nam3
+        Else
+            If nam3 <= nam1 Then
+                Display nam3, nam1, nam2
+            Else
+                Display nam1, nam3, nam2
+            End If
+        End If
+    Else
+        If nam1 < nam3 Then
+            Display nam2, nam1, nam3
+        Else
+            If nam2 >= nam3 Then
+                Display nam3, nam2, nam1
+            Else
+                Display nam2, nam3, nam1
+            End If
+        End If
+    End If
+End
