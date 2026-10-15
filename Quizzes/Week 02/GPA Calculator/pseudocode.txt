@@ -1,0 +1,9 @@
+Start
+  Declare real G, H, GPA
+  Display "Enter your Course Grades: "
+  Input G
+  Display "Enter your Credit Hours: "
+  Input H
+  Set GPA = G / H
+  Display "Your GPA is: ", GPA
+End
