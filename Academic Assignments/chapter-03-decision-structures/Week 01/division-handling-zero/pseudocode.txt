@@ -1,0 +1,12 @@
+Step 1: Start
+Step 2: Declare Real num1, num2
+Step 3: Display "enter first number"
+Step 4: Input num1
+Step 5: Display "enter second number"
+Step 6: Input num2
+Step 7: If (num2 != 0) Then
+            Display num1 / num2
+        Else
+            Display "can't divide by zero"
+        End If
+Step 8: End
