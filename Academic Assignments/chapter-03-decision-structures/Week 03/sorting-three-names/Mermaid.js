@@ -12,16 +12,16 @@ Inp3 --> Cond1{"nam1 <= nam2"}
 %% Left Main Branch (nam1 <= nam2 is False)
 Cond1 -- False --> Cond2{"nam1 <= nam3"}
 Cond2 -- False --> Cond3{"nam2 >= nam3"}
-Cond3 -- True --> Disp_L1[/display/]
-Cond3 -- False --> Disp_L2[/display/]
-Cond2 -- True --> Disp_L3[/display/]
+Cond3 -- True --> Disp_L1[/display nam3, nam2, nam1/]
+Cond3 -- False --> Disp_L2[/display nam2, nam3, nam1/]
+Cond2 -- True --> Disp_L3[/display nam2, nam1, nam3/]
 
 %% Right Main Branch (nam1 <= nam2 is True)
 Cond1 -- True --> Cond4{"nam2 <= nam3"}
-Cond4 -- True --> Disp_R1[/display/]
+Cond4 -- True --> Disp_R1[/display nam1, nam2, nam3/]
 Cond4 -- False --> Cond5{"nam3 <= nam1"}
-Cond5 -- True --> Disp_R2[/display/]
-Cond5 -- False --> Disp_R3[/display/]
+Cond5 -- True --> Disp_R2[/display nam1, nam2, nam3/]
+Cond5 -- False --> Disp_R3[/display nam1, nam3, nam2/]
 
 %% Merge to End
 Disp_L1 --> EndNode([End])
