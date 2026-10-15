@@ -4,7 +4,7 @@ flowchart TD
     Print1 --> Input1[/Input num1/]
     Input1 --> Print2[/Display "enter second number"/]
     Print2 --> Input2[/Input num2/]
-    Input2 --> Decision{num2 != 0?}
+    Input2 --> Decision{num2 != 0}
     
     Decision -- ture --> Calculate[/Display num1 / num2/]
     Decision -- false --> Error[/Display "can't divide by zero"/]
