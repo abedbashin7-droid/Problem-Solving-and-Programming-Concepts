@@ -1,1 +1,2 @@
-My introductory programming assignments and logic-building exercises using pseudocode, as a first-semester CS student.
+# Problem-Solving-and-Programming-Concepts
+First-semester freshman computer science student sharing beginner-friendly problem-solving concepts and logic implemented in pseudocode.
