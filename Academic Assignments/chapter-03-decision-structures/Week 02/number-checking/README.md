@@ -47,10 +47,10 @@ flowchart TD
     Start([Start]) --> Declare[Declare Real num]
     Declare --> PrintPrompt[/Display "Enter a number:"/]
     PrintPrompt --> InputNum[/Input num/]
-    InputNum --> Decision1{num > 0?}
+    InputNum --> Decision1{num > 0}
     
     Decision1 -- Ture --> OutputPos[/Display "The number is Positive"/]
-    Decision1 -- False --> Decision2{num < 0?}
+    Decision1 -- False --> Decision2{num < 0}
     
     Decision2 -- Ture --> OutputNeg[/Display "The number is Negative"/]
     Decision2 -- False --> OutputZero[/Display "The number is Zero"/]
