@@ -1,0 +1,21 @@
+==================================================
+PROGRAM: Reverse Digits of a Two-Digit Integer
+SUBJECT: Problem Solving and Programming Concepts
+==================================================
+
+1. PROBLEM:
+Write a program to accept a two-digit positive integer and display the digits in opposite order.
+
+2. ANALYSIS:
+- Input: Single positive integer (num) with 2 digits.
+- Operation: Use Modulus (num MOD 10) to get the ones digit and Integer Division (num / 10) to get the tens digit.
+- Output: Print (num MOD 10) then (num / 10).
+
+3. PSEUDOCODE:
+Step 1: Start
+Step 2: Declare Integer num
+Step 3: Display "Enter a two-digit positive number: "
+Step 4: Input num
+Step 5: Display num MOD 10, num / 10
+Step 6: End
+==================================================
