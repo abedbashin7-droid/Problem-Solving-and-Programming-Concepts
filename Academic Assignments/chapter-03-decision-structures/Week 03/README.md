@@ -50,10 +50,10 @@ flowchart TD
     Print1 --> Input1[/Input pass/]
     Input1 --> Print2[/Display "Enter user name"/]
     Print2 --> Input2[/Input nam/]
-    Input2 --> Decision{nam == NAM AND pass == PASS?}
+    Input2 --> Decision{nam == NAM AND pass == PASS}
     
-    Decision -- Yes --> OutputWelcome[/Display "Welcome"/]
-    Decision -- No --> OutputError[/Display "Password or user name were incorrect, try again"/]
+    Decision -- True --> OutputWelcome[/Display "Welcome"/]
+    Decision -- False --> OutputError[/Display "Password or user name were incorrect, try again"/]
     
     OutputWelcome --> End([End])
     OutputError --> End([End])
