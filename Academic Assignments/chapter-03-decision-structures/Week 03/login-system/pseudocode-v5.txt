@@ -1,0 +1,37 @@
+==================================================
+PROGRAM: Simple Login System
+AUTHOR: Abdulaziz Ali Baashn
+SUBJECT: Problem Solving and Programming Concepts
+==================================================
+
+1. PROBLEM:
+Design a simple log-in system where the user enters the username and password of the account.
+If inputs match, print "Welcome".
+If not, print "Password or user name were incorrect, try again".
+Do not specify which input was incorrect for safety reasons.
+
+2. ANALYSIS:
+- Input: User enters two string inputs (pass, nam).
+- Constants: Constant String PASS = "123ABC", NAM = "Ali".
+- Variables: Declare String pass, nam.
+- Decision Structure:
+  * Check condition: nam == NAM AND pass == PASS
+  * If True -> Display "Welcome"
+  * If False -> Display "Password or user name were incorrect, try again"
+- Security Note: Generic error message avoids disclosing specific credential errors.
+
+3. PSEUDOCODE:
+Step 1: Start
+Step 2: Constant String PASS = "123ABC", NAM = "Ali"
+Step 3: Declare String pass, nam
+Step 4: Display "Enter the password"
+Step 5: Input pass
+Step 6: Display "Enter user name"
+Step 7: Input nam
+Step 8: If nam == NAM AND pass == PASS Then
+            Display "Welcome"
+        Else
+            Display "Password or user name were incorrect, try again"
+        End If
+Step 9: End
+==================================================
