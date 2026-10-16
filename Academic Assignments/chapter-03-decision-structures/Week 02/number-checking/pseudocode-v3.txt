@@ -1,0 +1,31 @@
+==================================================
+PROGRAM: Number Inspection (Positive, Negative, or Zero)
+SUBJECT: Problem Solving and Programming Concepts
+==================================================
+
+1. PROBLEM:
+Write a program to accept a number from the user and determine whether it is positive, negative, or zero.
+
+2. ANALYSIS:
+- Input: Single numeric value (num).
+- Decision Structure:
+  - If num > 0: Output "The number is Positive"
+  - Else If num < 0: Output "The number is Negative"
+  - Else: Output "The number is Zero"
+
+3. PSEUDOCODE:
+Step 1: Start
+Step 2: Declare Real num
+Step 3: Display "Enter a number: "
+Step 4: Input num
+Step 5: If num > 0 Then
+            Display "The number is Positive"
+        Else
+            If num < 0 Then
+                Display "The number is Negative"
+            Else
+                Display "The number is Zero"
+            End If
+        End If
+Step 6: End
+==================================================
