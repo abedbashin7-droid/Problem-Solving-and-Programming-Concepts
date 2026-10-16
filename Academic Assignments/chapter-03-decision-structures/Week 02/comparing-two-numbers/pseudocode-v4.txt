@@ -1,0 +1,36 @@
+==================================================
+PROGRAM: Number Comparison (Maximum, Minimum, or Equal)
+SUBJECT: Problem Solving and Programming Concepts
+==================================================
+
+1. PROBLEM:
+Write a program to accept two real numbers and determine which one is maximum and which one is minimum, or if they are equal.
+
+2. ANALYSIS:
+- Declare two real variables: num1, num2.
+- Compare num1 and num2 using relational operators:
+  * If num1 > num2 -> num1 is maximum, num2 is minimum.
+  * Else If num1 < num2 -> num2 is maximum, num1 is minimum.
+  * Else -> num1 and num2 are equal.
+- Display clear output messages for the user.
+
+3. PSEUDOCODE:
+Step 1: Start
+Step 2: Declare Real num1, num2
+Step 3: Display "Enter the first number : "
+Step 4: Input num1
+Step 5: Display "Enter the second number : "
+Step 6: Input num2
+Step 7: If num1 > num2 Then
+            Display "The maximum number is ", num1
+            Display "The minimum number is ", num2
+        Else
+            If num1 < num2 Then
+                Display "The maximum number is ", num2
+                Display "The minimum number is ", num1
+            Else
+                Display "The two numbers are equal"
+            End If
+        End If
+Step 8: End
+==================================================
