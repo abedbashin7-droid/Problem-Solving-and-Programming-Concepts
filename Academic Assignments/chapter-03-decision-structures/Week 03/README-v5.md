@@ -44,7 +44,7 @@ Step 9: End
 ## 4. Flowchart (Mermaid.js)
 ```mermaid
 flowchart TD
-    Start([Start]) --> Constants[Constant String PASS = "123ABC", NAM = "Ali"]
+    Start([Start]) --> Constants[Constant String PASS = 123ABC, NAM = "Ali"]
     Constants --> Declare[Declare String pass, nam]
     Declare --> Print1[/Display "Enter the password"/]
     Print1 --> Input1[/Input pass/]
