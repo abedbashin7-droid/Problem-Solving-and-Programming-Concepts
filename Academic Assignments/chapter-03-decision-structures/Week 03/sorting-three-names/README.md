@@ -20,35 +20,35 @@ Design a program to accept three names from the user and display them organized 
 
 ## 3. Pseudocode
 ```text
-Step 1: Start
-Step 2: Declare String nam1, nam2, nam3
-Step 3: Display "Enter the first name:"
-Step 4: Input nam1
-Step 5: Display "Enter the second name:"
-Step 6: Input nam2
-Step 7: Display "Enter the third name:"
-Step 8: Input nam3
-Step 9: If nam1 <= nam2 Then
-            If nam2 <= nam3 Then
-                Display nam1, ", ", nam2, ", ", nam3
-            Else
-                If nam3 <= nam1 Then
-                    Display nam3, ", ", nam1, ", ", nam2
-                Else
-                    Display nam1, ", ", nam3, ", ", nam2
-                End If
-            End If
-        Else
-            If nam1 < nam3 Then
-                Display nam2, ", ", nam1, ", ", nam3
-            Else
-                If nam2 >= nam3 Then
-                    Display nam3, ", ", nam2, ", ", nam1
-                Else
-                    Display nam2, ", ", nam3, ", ", nam1
-                End If
-            End If
-        End If
+Step 01: Start
+Step 02: Declare String nam1, nam2, nam3
+Step 03: Display "Enter the first name:"
+Step 04: Input nam1
+Step 05: Display "Enter the second name:"
+Step 06: Input nam2
+Step 07: Display "Enter the third name:"
+Step 08: Input nam3
+Step 09: If nam1 <= nam2 Then
+             If nam2 <= nam3 Then
+                 Display nam1, ", ", nam2, ", ", nam3
+             Else
+                 If nam3 <= nam1 Then
+                     Display nam3, ", ", nam1, ", ", nam2
+                 Else
+                     Display nam1, ", ", nam3, ", ", nam2
+                 End If
+             End If
+         Else
+             If nam1 < nam3 Then
+                 Display nam2, ", ", nam1, ", ", nam3
+             Else
+                 If nam2 >= nam3 Then
+                     Display nam3, ", ", nam2, ", ", nam1
+                 Else
+                     Display nam2, ", ", nam3, ", ", nam1
+                 End If
+             End If
+         End If
 Step 10: End
 ```
 
