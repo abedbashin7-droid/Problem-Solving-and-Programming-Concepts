@@ -20,35 +20,35 @@ Design a program to accept three numeric values from the user and display them i
 
 ## 3. Pseudocode
 ```text
-Step 1: Start
-Step 2: Declare Real mun1, mun2, mun3
-Step 3: Display "Enter the first number:"
-Step 4: Input mun1
-Step 5: Display "Enter the second number:"
-Step 6: Input mun2
-Step 7: Display "Enter the third number:"
-Step 8: Input mun3
-Step 9: If mun1 <= mun2 Then
-            If mun2 <= mun3 Then
-                Display mun1, ", ", mun2, ", ", mun3
-            Else
-                If mun3 <= mun1 Then
-                    Display mun3, ", ", mun1, ", ", mun2
-                Else
-                    Display mun1, ", ", mun3, ", ", mun2
-                End If
-            End If
-        Else
-            If mun1 < mun3 Then
-                Display mun2, ", ", mun1, ", ", mun3
-            Else
-                If mun2 >= mun3 Then
-                    Display mun3, ", ", mun2, ", ", mun1
-                Else
-                    Display mun2, ", ", mun3, ", ", mun1
-                End If
-            End If
-        End If
+Step 01: Start
+Step 02: Declare Real mun1, mun2, mun3
+Step 03: Display "Enter the first number:"
+Step 04: Input mun1
+Step 05: Display "Enter the second number:"
+Step 06: Input mun2
+Step 07: Display "Enter the third number:"
+Step 08: Input mun3
+Step 09: If mun1 <= mun2 Then
+             If mun2 <= mun3 Then
+                 Display mun1, ", ", mun2, ", ", mun3
+             Else
+                 If mun3 <= mun1 Then
+                     Display mun3, ", ", mun1, ", ", mun2
+                 Else
+                     Display mun1, ", ", mun3, ", ", mun2
+                 End If
+             End If
+         Else
+             If mun1 < mun3 Then
+                 Display mun2, ", ", mun1, ", ", mun3
+             Else
+                 If mun2 >= mun3 Then
+                     Display mun3, ", ", mun2, ", ", mun1
+                 Else
+                     Display mun2, ", ", mun3, ", ", mun1
+                 End If
+             End If
+         End If
 Step 10: End
 ```
 
