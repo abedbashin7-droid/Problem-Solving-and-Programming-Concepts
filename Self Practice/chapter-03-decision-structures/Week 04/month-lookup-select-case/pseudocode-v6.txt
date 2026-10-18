@@ -19,19 +19,32 @@ Step 2: Declare Integer mon
 Step 3: Display "Enter the month's number : "
 Step 4: Input mon
 Step 5: Select mon
-            case 1: Display "January"
-            case 2: Display "February"
-            case 3: Display "March"
-            case 4: Display "April"
-            case 5: Display "May"
-            case 6: Display "June"
-            case 7: Display "July"
-            case 8: Display "August"
-            case 9: Display "September"
-            case 10: Display "October"
-            case 11: Display "November"
-            case 12: Display "December"
-            case default: Display "ERROR, Invalid Number"
+            case 1:
+               Display "January"
+            case 2:
+               Display "February"
+            case 3:
+               Display "March"
+            case 4:
+               Display "April"
+            case 5:
+               Display "May"
+            case 6:
+               Display "June"
+            case 7:
+               Display "July"
+            case 8:
+               Display "August"
+            case 9:
+               Display "September"
+            case 10:
+               Display "October"
+            case 11:
+               Display "November"
+            case 12:
+               Display "December"
+            case default:
+               Display "ERROR, Invalid Number"
         End Select
 Step 6: End
 ==================================================
