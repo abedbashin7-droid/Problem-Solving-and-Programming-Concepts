@@ -1,4 +1,4 @@
-# Assignment: Sorting Three Numbers in Ascending Order
+# Self-Exercise: Sorting Three Numbers in Ascending Order
 
 ## 1. Problem Description
 Design a program to accept three numeric values from the user and display them in **ascending order** (from smallest to largest).
