@@ -40,5 +40,3 @@ Every challenge follows a uniform 3-file structure:
 First-Semester Computer Science Student • [@abedbashin7-droid](https://github.com/abedbashin7-droid)
 
 ---
-
-💡 **هل يناسبك هذا التنسيق المختصر، أم تود تعديل أو حذف أي سطر فيه قبل اعتماده في المستودع؟**
