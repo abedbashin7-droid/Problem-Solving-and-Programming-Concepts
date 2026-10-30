@@ -68,13 +68,13 @@ step 12: If pass == PASS AND nam == NAM then
 	                   Display "ERROR, Invalid Number out of retch"
 	                End Select
 	             case 4:
-	                Display "ERROR, This feature is under construction and hasn't finished yet! ['O_o:]"
+	                Display "ERROR, This feature is under construction and hasn't finished yet! ['O_o:]" 
 	             case 5:
 	                
 	             case 6:
 	                Display "Well... I hope you come back soon. [^_^]"
 	             case Default:
 					Display "Wrong Identify, Unexpected Access Were Danite. [o_o]"
-					Display "You are rather silly, aren't you? [o^o]"
+					Display "You are rather silly, aren't you? [¬_¬]"
 					Display "Please, Be careful. [OvO]"
 	                
