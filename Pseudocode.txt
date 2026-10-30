@@ -18,60 +18,63 @@ step 09: Input nam
 step 10: Display "Enter password: "
 step 11: Input pass
 step 12: If pass == PASS AND nam == NAM then
-	  Display "========================================"
-	  Display "Welcome back to the Great System! " NAM
-	  Display "========================================"
-	  Do
-	       Display "You can choose any opreation to preform from the menu by entering the number:"
-	       Display "      [1] Calculating"
-	       Display "      [2] Sorting"
-	       Display "      [3] Month lookup"
-	       Display "      [4] Chatbot"
-	       Display "      [5] Others"
-	       Display "      [6] Exit"
-	       Input choc
-	       Select choc:
-	           case 1: 
-	                
-	           case 2:
-	                
-	           case 3:
+		 Display "========================================"
+		 Display "Welcome back to the Great System! " NAM
+	 	 Display "========================================"
+	 	 Do
+			  Display "You can choose any operation to preform from the menu by entering the number:"
+	       	  Display "    [1] Calculating"
+	       	  Display "    [2] Sorting"
+	       	  Display "    [3] Month lookup"
+	       	  Display "    [4] Chatbot"
+	      	  Display "    [5] Others"
+	      	  Display "    [6] Exit"
+	      	  Input choc
+	      	  Select choc:
+	       	     case 1: 
+	         	     
+				 case 2:
+	                 
+	      	     case 3:
 	                Declare Integer mon
 	                Display "Enter the month's number [1-12]: "
 	                Input mon
 	                Select mon
 	                case 1:
-	                               Display "January"
-	                            case 2:
-	                               Display "February"
-	                            case 3:
-	                               Display "March"
-	                            case 4:
-	                               Display "April"
-	                            case 5:
-	                               Display "May"
-	                            case 6:
-	                               Display "June"
-	                            case 7:
-	                               Display "July"
-	                            case 8:
-	                               Display "August"
-	                            case 9:
-	                               Display "September"
-	                            case 10:
-	                               Display "October"
-	                            case 11:
-	                               Display "November"
-	                            case 12:
-	                               Display "December"
-	                            case default:
-	                               Display "ERROR, Invalid Number out of retch"
-	                        End Select
-	           case 4:
-	                Display "ERROR, This feature is under constraction and hasn't finshed yet! [O_o']"
-	           case 5:
+	                   Display "January"
+	                case 2:
+	                   Display "February"
+	                case 3:
+	                   Display "March"
+	                case 4:
+	                   Display "April"
+	                case 5:
+	                   Display "May"
+	                case 6:
+	                   Display "June"
+	                case 7:
+	                   Display "July"
+	                case 8:
+	                   Display "August"
+	                case 9:
+	                   Display "September"
+	                case 10:
+	                   Display "October"
+	                case 11:
+	                   Display "November"
+	                case 12:
+	                   Display "December"
+	                case default:
+	                   Display "ERROR, Invalid Number out of retch"
+	                End Select
+	             case 4:
+	                Display "ERROR, This feature is under construction and hasn't finished yet! ['O_o:]"
+	             case 5:
 	                
-	           case 6:
+	             case 6:
 	                Display "Well... I hope you come back soon. [^_^]"
-	           case Defult:
+	             case Default:
+					Display "Wrong Identify, Unexpected Access Were Danite. [o_o]"
+					Display "You are rather silly, aren't you? [o^o]"
+					Display "Please, Be careful. [OvO]"
 	                
