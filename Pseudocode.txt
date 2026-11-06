@@ -3,7 +3,7 @@ Q: Design a program that has a multi-uses where the program can be used as a cal
 Sol:
 First: Understanding the problem:-
 1- the program must preform all what was the last programs can do in the repository 2- In order to make the program has the multi-use feature we must use select and repetition statements 
-
+████████████░░
 
 Second: Pseudocode designing:-
 step 01: Start
