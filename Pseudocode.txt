@@ -9,7 +9,7 @@ Second: Pseudocode designing:-
 step 01: Start
 step 02: Constant String NAM = Creator, PASS = RTs
 step 03: Declare String nam, pass
-step 04: Declare Integer choc
+step 04: Declare Integer choc1, choc2
 step 05: Display "Welcome to the Great System!"
 step 06: Display "======================="
 step 07: Display "First: you must log-in to the system."
@@ -29,12 +29,23 @@ step 12: If pass == PASS AND nam == NAM then
 	       	  Display "    [4] Chatbot"
 	      	  Display "    [5] Others"
 	      	  Display "    [6] Exit"
-	      	  Input choc
-	      	  Select choc:
+	      	  Input choc1
+	      	  Select choc1:
 	       	     case 1: 
-	         	     
-				 case 2:
-	                 
+	         	    Display "Which operation do you want to preform:"
+	         	    Display "    [1] Addition"
+	         	    Display "    [2] Subtraction"
+	         	    Display "    [3] Multiplication"
+	         	    Display "    [4] Division"
+	         	    Display "    [5] Victorian"
+	         	    Display "    [6] << Go Back"
+					Input choc2
+	      	        Select choc2:
+	       	     	   case 1:
+						  
+	       	     	   case 2:
+	       	     case 2:
+					
 	      	     case 3:
 	                Declare Integer mon
 	                Display "Enter the month's number [1-12]: "
