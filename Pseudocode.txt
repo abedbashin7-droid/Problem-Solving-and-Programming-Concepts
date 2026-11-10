@@ -11,81 +11,100 @@ step 02: Constant String NAM = Creator, PASS = RTs
 step 03: Declare String nam, pass
 step 04: Declare Integer choc1, choc2
 step 05: Display "Welcome to the Great System!"
-step 06: Display "======================="
+step 06: Display "████████████████████████████"
 step 07: Display "First: you must log-in to the system."
 step 08: Display "Enter username: "
 step 09: Input nam
 step 10: Display "Enter password: "
 step 11: Input pass
 step 12: If pass == PASS AND nam == NAM then
-		 Display "========================================"
-		 Display "Welcome back to the Great System! " NAM
-	 	 Display "========================================"
-	 	 Do
-			  Display "You can choose any operation to preform from the menu by entering the number:"
-	       	  Display "    [1] Calculating"
-	       	  Display "    [2] Sorting"
-	       	  Display "    [3] Month lookup"
-	       	  Display "    [4] Chatbot"
-	      	  Display "    [5] Others"
-	      	  Display "    [6] Exit"
-	      	  Input choc1
-	      	  Select choc1:
-	       	     case 1: 
-	         	    Display "Which operation do you want to preform:"
-	         	    Display "    [1] Addition"
-	         	    Display "    [2] Subtraction"
-	         	    Display "    [3] Multiplication"
-	         	    Display "    [4] Division"
-	         	    Display "    [5] Victorian"
-	         	    Display "    [6] << Go Back"
-					Input choc2
-	      	        Select choc2:
-	       	     	   case 1:
-						  
-	       	     	   case 2:
-	       	     case 2:
-					
-	      	     case 3:
-	                Declare Integer mon
-	                Display "Enter the month's number [1-12]: "
-	                Input mon
-	                Select mon
-	                case 1:
-	                   Display "January"
-	                case 2:
-	                   Display "February"
-	                case 3:
-	                   Display "March"
-	                case 4:
-	                   Display "April"
-	                case 5:
-	                   Display "May"
-	                case 6:
-	                   Display "June"
-	                case 7:
-	                   Display "July"
-	                case 8:
-	                   Display "August"
-	                case 9:
-	                   Display "September"
-	                case 10:
-	                   Display "October"
-	                case 11:
-	                   Display "November"
-	                case 12:
-	                   Display "December"
-	                case default:
-	                   Display "ERROR, Invalid Number out of retch"
-	                End Select
-	             case 4:
-	                Display "ERROR, This feature is under construction and hasn't finished yet! ['O_o:]" 
-	             case 5:
-	                
-	             case 6:
-	                Display "Well... I hope you come back soon. [^_^]"
-	             case Default:
-					Display "Wrong Identify, Unexpected Access Were Danite. [o_o]"
-					Display "You are rather silly, aren't you? [¬_¬]"
-					Display "Please, Be careful. [OvO]"
-	                
+			 Display "███████████████████████████████████████"
+			 Display "Welcome back to the Great System! " NAM
+		 	 Display "███████████████████████████████████████"
+		 	 Do
+				  Display "You can choose any operation to preform from the menu by entering the number:"
+		       	  Display "    [1] Calculating"
+		       	  Display "    [2] Sorting"
+		       	  Display "    [3] Month lookup"
+		       	  Display "    [4] Chatbot"
+		      	  Display "    [5] Others"
+		      	  Display "    [6] Exit"
+		      	  Input choc1
+		      	  Select choc1:
+		       	     case 1:
+		 				Do
+		         	    	Declare num1, num2
+		         	    	Display "Which operation do you want to preform:"
+		         	    	Display "    [1] Addition"
+		         	    	Display "    [2] Subtraction"
+		         	    	Display "    [3] Multiplication"
+		         	    	Display "    [4] Division"
+		         	    	Display "    [5] Victorian"
+		         	    	Display "    [6] << Go Back"
+							Input choc2
+		         	    	Display "Enter the 1st number: "
+		         	    	Input num1
+		         	    	Display "Enter the 2nd number: "
+		         	    	Input num2
+		      	        	Select choc2:
+		       	     	 	  case 1:
+							  	 Display "The result of ", num1, " + ", num2, " is ", num1+num2
+		       	     	 	  case 2:
+							  	 Display "The result of ", num1, " - ", num2, " is ", num1-num2
+							  case 3:
+							  	 Display "The result of ", num1, " × ", num2, " is ", num1*num2
+		       	     	   	  case 4:
+							  	 Display "The result of ", num1, " ÷ ", num2, " is ", num1/num2
+		       	     	   	  case 5:
+							  	 Display "The result of ", num1, " ^ ", num2, " is ", num1^num2
+		       	     	   	  case 6:
+		                   		 
+		       	     	   	  case Default:
+							  	 Display "ERROR, Invalid chooce out of retch."
+		 				While choc2 != 6
+		       	     case 2:
+						
+		      	     case 3:
+		                Declare Integer mon
+		                Display "Enter the month's number [1-12]: "
+		                Input mon
+		                Select mon
+		                case 1:
+		                   Display "January"
+		                case 2:
+		                   Display "February"
+		                case 3:
+		                   Display "March"
+		                case 4:
+		                   Display "April"
+		                case 5:
+		                   Display "May"
+		                case 6:
+		                   Display "June"
+		                case 7:
+		                   Display "July"
+		                case 8:
+		                   Display "August"
+		                case 9:
+		                   Display "September"
+		                case 10:
+		                   Display "October"
+		                case 11:
+		                   Display "November"
+		                case 12:
+		                   Display "December"
+		                case default:
+		                   Display "ERROR, Invalid Number out of retch"
+		                End Select
+		             case 4:
+		                Display "ERROR, This feature is under construction and hasn't finished yet! ['O_o:]" 
+		             case 5:
+		                
+		             case 6:
+		                Display "Well... I hope you come back soon. [^_^]"
+		             case Default:
+						Display "Wrong Identify, Unexpected Access Were Danite. [o_o]"
+						Display "You are rather silly, aren't you? [¬_¬]"
+						Display "Please, Be careful. [OvO]"
+
+		 	 While choc1 != 6
