@@ -42,25 +42,25 @@ step 12: If pass == PASS AND nam == NAM then
 		         	    	Display "    [5] Victorian"
 		         	    	Display "    [6] << Go Back"
 							Input choc2
-		         	    	Display "Enter the 1st number: "
-		         	    	Input num1
-		         	    	Display "Enter the 2nd number: "
-		         	    	Input num2
-		      	        	Select choc2:
-		       	     	 	  case 1:
-							  	 Display "The result of ", num1, " + ", num2, " is ", num1+num2
-		       	     	 	  case 2:
-							  	 Display "The result of ", num1, " - ", num2, " is ", num1-num2
-							  case 3:
-							  	 Display "The result of ", num1, " × ", num2, " is ", num1*num2
-		       	     	   	  case 4:
-							  	 Display "The result of ", num1, " ÷ ", num2, " is ", num1/num2
-		       	     	   	  case 5:
-							  	 Display "The result of ", num1, " ^ ", num2, " is ", num1^num2
-		       	     	   	  case 6:
-		                   		 
-		       	     	   	  case Default:
-							  	 Display "ERROR, Invalid chooce out of retch."
+		         	    	If choc2 != 6 Then
+		         	    		Display "Enter the 1st number: "
+		         	    		Input num1
+		         	    		Display "Enter the 2nd number: "
+		         	    		Input num2
+		      	        		Select choc2:
+		       	     	 		  case 1:
+							  		 Display "The result of ", num1, " + ", num2, " is ", num1+num2
+		       	     	 		  case 2:
+								  	 Display "The result of ", num1, " - ", num2, " is ", num1-num2
+								  case 3:
+								  	 Display "The result of ", num1, " × ", num2, " is ", num1*num2
+		       	     	   		  case 4:
+								  	 Display "The result of ", num1, " ÷ ", num2, " is ", num1/num2
+		       	     	   		  case 5:
+								  	 Display "The result of ", num1, " ^ ", num2, " is ", num1^num2
+		       	     	   		  case Default:
+							  		 Display "ERROR, Invalid chooce out of retch."
+		         	    	End If
 		 				While choc2 != 6
 		       	     case 2:
 						
