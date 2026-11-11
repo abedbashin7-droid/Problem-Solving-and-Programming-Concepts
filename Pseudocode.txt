@@ -99,7 +99,7 @@ step 12: If pass == PASS AND nam == NAM then
 		             case 4:
 		                Display "ERROR, This feature is under construction and hasn't finished yet! ['O_o:]" 
 		             case 5:
-		                
+		                Display "ERROR, This feature is under construction and hasn't finished yet! ['O_o:]" 
 		             case 6:
 		                Display "Well... I hope you come back soon. [^_^]"
 		             case Default:
