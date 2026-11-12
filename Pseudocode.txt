@@ -2,7 +2,8 @@ Q: Design a program that has a multi-uses where the program can be used as a cal
 
 Sol:
 First: Understanding the problem:-
-1- the program must preform all what was the last programs can do in the repository (from  2- In order to make the program has the multi-use feature we must use select and repetition statements 
+1- The program must preform all what was the last programs can do in the repository (Calculating, Sorting, Month lookup, logging in and some other features). 2- In order to make the program has the multi-use feature we must use select, repetition and condition statements to make menu selection and for more flexibility. 3- I must be careful while copying-pasting codes and designing the conditions and repetitions statements. 4- I must be friendly with the user by design the UI and count any possibilities that the user might face during the use. 5- Design menus to move between choices, a "Go Back" button for every submenu to go back to the main menu and an "Exit" button in the main menu to exit out the program. 6- Using repetition statement for every menu would be a great idea for preform the same action in case if needed. 
+
 ████████████░░
 
 Second: Pseudocode designing:-
