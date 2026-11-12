@@ -60,6 +60,7 @@ step 12: If pass == PASS AND nam == NAM then
 								  	 Display "The result of ", num1, " ^ ", num2, " is ", num1^num2
 		       	     	   		  case Default:
 							  		 Display "ERROR, Invalid chooce out of retch."
+		      	        		End Select
 		         	    	End If
 		 				While choc2 != 6
 		       	     case 2:
@@ -131,6 +132,9 @@ step 12: If pass == PASS AND nam == NAM then
 							  		 	 	 End If
 							  		 	 End If
 							  		 End If
+						          case Default:
+							  		 Display "ERROR, Invalid chooce out of retch."
+		      	        		End Select
 						    End If
 						While choc2 != 3
 		      	     case 3:
