@@ -73,7 +73,7 @@ step 12: If pass == PASS AND nam == NAM then
 						        Select choc2
 						          case 1:
 							  		 Declare String nam1, nam2, nam3
-							  		 Display "You have choose to sort three names"
+							  		 Display "You have choose to sorting three names"
 							  		 Display "Enter the first name:"
 							  		 Input nam1
 							  		 Display "Enter the second name:"
@@ -98,6 +98,36 @@ step 12: If pass == PASS AND nam == NAM then
 							  		 	 	 	 Display nam3, nam2, nam1
 							  		 	 	 Else
 							  		 	 	 	 Display nam2, nam3, nam1
+							  		 	 	 End If
+							  		 	 End If
+							  		 End If
+						          case 2:
+							  		 Declare integer num1, num2, num3
+							  		 Display "You have choose to sorting three numbers"
+							  		 Display "Enter the first number:"
+							  		 Input num1
+							  		 Display "Enter the second name:"
+							  		 Input num2
+							  		 Display "Enter the third name:"
+							  		 Input num3
+							  		 If num1 <= num2 Then
+							  		 	 If num2 <= num3 Then
+							  		 	 	 Display num1, num2, num3
+							  		 	 Else
+							  		 	 	 If num3 <= num1 Then
+							  		 	 	 	 Display num3, num1, num2
+							  		 	 	 Else
+							  		 	 	 	 Display num1, num3, num2
+							  		 	 	 End If
+							  		 	 End If
+							  		 Else
+							  		 	 If num2 >= num3 Then
+							  		 	 	 Display num2, num1, num3
+							  		 	 Else
+							  		 	 	 If num2 >= num3 Then
+							  		 	 	 	 Display num3, num2, num1
+							  		 	 	 Else
+							  		 	 	 	 Display num2, num3, num1
 							  		 	 	 End If
 							  		 	 End If
 							  		 End If
