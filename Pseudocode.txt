@@ -2,7 +2,7 @@ Q: Design a program that has a multi-uses where the program can be used as a cal
 
 Sol:
 First: Understanding the problem:-
-1- the program must preform all what was the last programs can do in the repository 2- In order to make the program has the multi-use feature we must use select and repetition statements 
+1- the program must preform all what was the last programs can do in the repository (from  2- In order to make the program has the multi-use feature we must use select and repetition statements 
 ████████████░░
 
 Second: Pseudocode designing:-
@@ -33,7 +33,7 @@ step 12: If pass == PASS AND nam == NAM then
 		      	  Select choc1:
 		       	     case 1:
 		 				Do
-		         	    	Declare num1, num2
+		         	    	Declare Real num1, num2
 		         	    	Display "Which operation do you want to preform:"
 		         	    	Display "    [1] Addition"
 		         	    	Display "    [2] Subtraction"
@@ -63,7 +63,46 @@ step 12: If pass == PASS AND nam == NAM then
 		         	    	End If
 		 				While choc2 != 6
 		       	     case 2:
-						
+						Do
+						    Display "Which operation do you want to preform:"
+						    Display "    [1] Sorting Three Names"
+						    Display "    [2] Sorting Three Numbers"
+						    Display "    [3] << Go Back"
+						    Input choc2
+						    If choc2 != 3 Then
+						        Select choc2
+						          case 1:
+							  		 Declare String nam1, nam2, nam3
+							  		 Display "You have choose to sort three names"
+							  		 Display "Enter the first name:"
+							  		 Input nam1
+							  		 Display "Enter the second name:"
+							  		 Input nam2
+							  		 Display "Enter the third name:"
+							  		 Input nam3
+							  		 If nam1 <= nam2 Then
+							  		 	 If nam2 <= nam3 Then
+							  		 	 	 Display nam1, nam2, nam3
+							  		 	 Else
+							  		 	 	 If nam3 <= nam1 Then
+							  		 	 	 	 Display nam3, nam1, nam2
+							  		 	 	 Else
+							  		 	 	 	 Display nam1, nam3, nam2
+							  		 	 	 End If
+							  		 	 End If
+							  		 Else
+							  		 	 If nam2 >= nam3 Then
+							  		 	 	 Display nam2, nam1, nam3
+							  		 	 Else
+							  		 	 	 If nam2 >= nam3 Then
+							  		 	 	 	 Display nam3, nam2, nam1
+							  		 	 	 Else
+							  		 	 	 	 Display nam2, nam3, nam1
+							  		 	 	 End If
+							  		 	 End If
+							  		 End If
+						    End If
+						While choc2 != 3
 		      	     case 3:
 		                Declare Integer mon
 		                Display "Enter the month's number [1-12]: "
@@ -106,5 +145,6 @@ step 12: If pass == PASS AND nam == NAM then
 						Display "Wrong Identify, Unexpected Access Were Danite. [o_o]"
 						Display "You are rather silly, aren't you? [¬_¬]"
 						Display "Please, Be careful. [OvO]"
-
 		 	 While choc1 != 6
+         End If
+step 13: End
