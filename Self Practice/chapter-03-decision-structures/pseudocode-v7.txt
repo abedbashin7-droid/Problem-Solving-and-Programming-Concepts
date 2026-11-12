@@ -1,0 +1,147 @@
+==================================================
+PROGRAM: Multi-Utility Interactive CLI System
+TYPE: Self-Exercise / System Integration
+SUBJECT: Problem Solving and Programming Concepts
+==================================================
+
+1. PROBLEM STATEMENT:
+Design a multi-purpose interactive application featuring login authentication, an arithmetic calculator, string/number sorting, month lookup, nested sub-menus with 'Go Back' navigation, and defensive error handling.
+
+2. LOGIC ANALYSIS:
+- Authentication: Constant String NAM = "Creator", PASS = "RTs".
+- Control Structures:
+  * Do-While loops for continuous menu navigation.
+  * Select Case structures for multi-branch menu routing.
+  * Nested If-Else conditions for credential checks and sub-menu logic.
+- Modular Design: Calculator Submenu, Sorter Submenu, Month Lookup, Under-construction stubs for Chatbot/Others.
+
+3. FULL PSEUDOCODE:
+Step 1: Start
+Step 2: Constant String NAM = "Creator", PASS = "RTs"
+Step 3: Declare String nam, pass
+Step 4: Declare Integer choc1, choc2
+Step 5: Display "Welcome to the Great System!"
+Step 6: Display "First: log-in to the system."
+Step 7: Display "Enter username: "
+Step 8: Input nam
+Step 9: Display "Enter password: "
+Step 10: Input pass
+Step 11: If pass == PASS AND nam == NAM Then
+             Display "Welcome back to the Great System! ", NAM
+             Do
+                 Display "Select an operation from the menu:"
+                 Display "    [1] Calculating"
+                 Display "    [2] Sorting"
+                 Display "    [3] Month lookup"
+                 Display "    [4] Chatbot"
+                 Display "    [5] Others"
+                 Display "    [6] Exit"
+                 Input choc1
+                 Select choc1
+                     case 1:
+                         Do
+                             Declare Real num1, num2
+                             Display "Which operation do you want to perform:"
+                             Display "    [1] Addition"
+                             Display "    [2] Subtraction"
+                             Display "    [3] Multiplication"
+                             Display "    [4] Division"
+                             Display "    [5] Exponentiation (^)"
+                             Display "    [6] << Go Back"
+                             Input choc2
+                             If choc2 != 6 Then
+                                 Display "Enter 1st number: "
+                                 Input num1
+                                 Display "Enter 2nd number: "
+                                 Input num2
+                                 Select choc2
+                                     case 1: Display "Result: ", num1 + num2
+                                     case 2: Display "Result: ", num1 - num2
+                                     case 3: Display "Result: ", num1 * num2
+                                     case 4: Display "Result: ", num1 / num2
+                                     case 5: Display "Result: ", num1 ^ num2
+                                     case default: Display "ERROR: Invalid choice."
+                                 End Select
+                             End If
+                         While choc2 != 6
+                     case 2:
+                         Do
+                             Display "Which sorting operation do you want to perform:"
+                             Display "    [1] Sorting Three Names"
+                             Display "    [2] Sorting Three Numbers"
+                             Display "    [3] << Go Back"
+                             Input choc2
+                             If choc2 != 3 Then
+                                 Select choc2
+                                     case 1:
+                                         Declare String nam1, nam2, nam3
+                                         Display "Enter first name:"
+                                         Input nam1
+                                         Display "Enter second name:"
+                                         Input nam2
+                                         Display "Enter third name:"
+                                         Input nam3
+                                         If nam1 <= nam2 Then
+                                             If nam2 <= nam3 Then Display nam1, ", ", nam2, ", ", nam3
+                                             Else If nam3 <= nam1 Then Display nam3, ", ", nam1, ", ", nam2
+                                             Else Display nam1, ", ", nam3, ", ", nam2
+                                             End If
+                                         Else
+                                             If nam2 >= nam3 Then Display nam2, ", ", nam1, ", ", nam3
+                                             Else If nam2 >= nam3 Then Display nam3, ", ", nam2, ", ", nam1
+                                             Else Display nam2, ", ", nam3, ", ", nam1
+                                             End If
+                                         End If
+                                     case 2:
+                                         Declare Integer num1, num2, num3
+                                         Display "Enter first number:"
+                                         Input num1
+                                         Display "Enter second number:"
+                                         Input num2
+                                         Display "Enter third number:"
+                                         Input num3
+                                         If num1 <= num2 Then
+                                             If num2 <= num3 Then Display num1, ", ", num2, ", ", num3
+                                             Else If num3 <= num1 Then Display num3, ", ", num1, ", ", num2
+                                             Else Display num1, ", ", num3, ", ", num2
+                                             End If
+                                         Else
+                                             If num2 >= num3 Then Display num2, ", ", num1, ", ", num3
+                                             Else If num2 >= num3 Then Display num3, ", ", num2, ", ", num1
+                                             Else Display num2, ", ", num3, ", ", num1
+                                             End If
+                                         End If
+                                     case default: Display "ERROR: Invalid choice."
+                                 End Select
+                             End If
+                         While choc2 != 3
+                     case 3:
+                         Declare Integer mon
+                         Display "Enter month number [1-12]: "
+                         Input mon
+                         Select mon
+                             case 1: Display "January"
+                             case 2: Display "February"
+                             case 3: Display "March"
+                             case 4: Display "April"
+                             case 5: Display "May"
+                             case 6: Display "June"
+                             case 7: Display "July"
+                             case 8: Display "August"
+                             case 9: Display "September"
+                             case 10: Display "October"
+                             case 11: Display "November"
+                             case 12: Display "December"
+                             case default: Display "ERROR: Invalid Number."
+                         End Select
+                     case 4: Display "ERROR: Chatbot feature under construction."
+                     case 5: Display "ERROR: Feature under construction."
+                     case 6: Display "Well... I hope you come back soon."
+                     case default: Display "Wrong Identity / Invalid selection."
+                 End Select
+             While choc1 != 6
+         Else
+             Display "Authentication Failed."
+         End If
+Step 12: End
+==================================================
